@@ -1,60 +1,64 @@
 ---
 hide:
   - navigation
+  - toc
 ---
 
-# AspireWorld
+# 🏠 Вики AspireWorld
 
-Анархия на **Minecraft 1.21.4**: рейды на обсидиановые базы, кастомные динамиты, аукцион, ивенты с боссами и мини-ивенты каждые полчаса.
+Добро пожаловать в базу знаний сервера **AspireWorld** — здесь собрано всё про режим, правила, донат, экономику, рейды и ивенты.
 
-<span class="aw-ip">mc.aspireworld.ru</span>
+<div class="aw-kv" markdown>
 
-Сайт и донат: **[aspireworld.ru](https://aspireworld.ru)** · Telegram: **[t.me/AspireWorld](https://t.me/AspireWorld)** · Discord: **[discord.gg/4vcw34k3cq](https://discord.gg/4vcw34k3cq)**
-
-## С чего начать
-
-<div class="aw-cards" markdown>
-
-[**:material-rocket-launch: Как начать**
-Первые шаги, телепорт в дикий мир, наборы](start.md)
-
-[**:material-book-open-variant: Правила**
-Что нельзя и за что баны](rules.md)
-
-[**:material-console: Команды**
-Все команды игрока по разделам](commands.md)
-
-[**:material-crown: Привилегии**
-Донат, зарплата, слоты, регионы](donate.md)
+| | |
+|---|---|
+| Айпи адрес | `mc.aspireworld.ru` |
+| Версия игры | 1.21.4 |
+| Сайт и донат | [aspireworld.ru](https://aspireworld.ru) |
 
 </div>
 
-## Разделы
+## Режимы
 
 <div class="aw-cards" markdown>
 
-[**:material-bomb: Регионы и рейды**
-9 динамитов, укреплённый сланец, прочность регионов](raids.md)
+[**🌎 Анархия**
+<span>Рейды на обсидиановые базы, 9 кастомных динамитов, аукцион, ивенты с боссами</span>](anarchy/index.md)
 
-[**:material-gavel: Аукцион**
-`/ah sell auto`, продажа инвентаря, поиск](auction.md)
+</div>
 
-[**:material-meteor: Ивенты**
-Песчаные Раскопки, аирдропы, метеориты, Торговец Смерти](events.md)
+## Популярное
 
-[**:material-sword-cross: PvP и смерть**
-Режим боя, кулдауны, что теряется при смерти](pvp.md)
+<div class="aw-cards" markdown>
 
-[**:material-anvil: Наковальня и опыт**
-Острота VII, Защита V, зелья III, колбы опыта](anvil.md)
+[**📄 Правила сервера**
+<span>Что запрещено и какие наказания</span>](anarchy/rules.md)
 
-[**:material-cash: Экономика**
-Монеты, кроны, зарплата, охота на мобов](economy.md)
+[**❓ Частые вопросы**
+<span>Ответы на самое популярное</span>](anarchy/faq.md)
 
-[**:material-dice-multiple: Игровой зал**
-Колесо фортуны, Звёздная башня, Кости удачи](casino.md)
+[**🧨 Динамит**
+<span>Все заряды и как ломать обсидиан</span>](anarchy/tnt.md)
 
-[**:material-shield-account: Жалобы и проверки**
-Как пожаловаться и что будет на проверке](reports.md)
+[**👑 Привилегии**
+<span>Что даёт донат</span>](anarchy/donate.md)
+
+[**🏷️ Аукцион**
+<span>Автоцена, продажа инвентаря, поиск</span>](anarchy/auction.md)
+
+[**🎉 Мини-ивенты**
+<span>Аирдроп, Торговец Смерти, Метеорит</span>](anarchy/minievents.md)
+
+</div>
+
+## Помощь
+
+<div class="aw-links" markdown>
+
+Поддержка и обжалование наказаний: t.me/aspirehelp [Открыть](https://t.me/aspirehelp){ .aw-open }
+
+Телеграм-канал с новостями: t.me/AspireWorld [Открыть](https://t.me/AspireWorld){ .aw-open }
+
+Discord сервера: discord.gg/4vcw34k3cq [Открыть](https://discord.gg/4vcw34k3cq){ .aw-open }
 
 </div>

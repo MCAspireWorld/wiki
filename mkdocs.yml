@@ -1,6 +1,6 @@
-site_name: AspireWorld Wiki
+site_name: AspireWorld
 site_url: https://mcaspireworld.github.io/wiki/
-site_description: Вики анархии AspireWorld (Minecraft 1.21.4) — команды, донат, рейды, ивенты, экономика.
+site_description: Вики анархии AspireWorld (Minecraft 1.21.4) — правила, команды, донат, рейды, ивенты, экономика.
 repo_url: https://github.com/MCAspireWorld/wiki
 repo_name: MCAspireWorld/wiki
 edit_uri: edit/main/docs/
@@ -9,28 +9,32 @@ copyright: AspireWorld © 2026 · mc.aspireworld.ru
 theme:
   name: material
   language: ru
-  icon:
-    logo: material/meteor
-  favicon: assets/favicon.svg
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/weather-sunny
-        name: Светлая тема
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: purple
+      primary: white
+      accent: deep purple
       toggle:
         icon: material/weather-night
         name: Тёмная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.path
     - navigation.top
     - navigation.footer
     - search.suggest
@@ -40,8 +44,11 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/header.js
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/AspireWorld
@@ -60,6 +67,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+      title: На этой странице
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -70,22 +78,35 @@ markdown_extensions:
 
 nav:
   - Главная: index.md
-  - Начало:
-      - Как начать: start.md
-      - Правила: rules.md
-      - Команды: commands.md
-      - Вопросы и ответы: faq.md
-  - Донат:
-      - Привилегии: donate.md
-  - Экономика:
-      - Деньги и заработок: economy.md
-      - Аукцион: auction.md
-      - Игровой зал: casino.md
-  - Выживание:
-      - Регионы и рейды: raids.md
-      - PvP и смерть: pvp.md
-      - Наковальня и опыт: anvil.md
-  - Ивенты:
-      - Ивенты сервера: events.md
-  - Модерация:
-      - Жалобы и проверки: reports.md
+  - Анархия:
+      - База знаний:
+          - 🌎 О режиме AspireWorld: anarchy/index.md
+          - ❓ Часто задаваемые вопросы: anarchy/faq.md
+          - 📄 Правила сервера: anarchy/rules.md
+          - 🧭 Команды: anarchy/commands.md
+      - Деньги и торговля:
+          - 💰 Монеты и зарплата: anarchy/economy.md
+          - 🧾 Скупщик и магазин: anarchy/seller.md
+          - 🏷️ Аукцион: anarchy/auction.md
+          - 🎰 Игровой зал: anarchy/casino.md
+      - Фарм и развитие:
+          - ✨ Опыт: anarchy/exp.md
+          - 🔮 Зачарования и наковальня: anarchy/anvil.md
+          - 🧪 Зелья: anarchy/potions.md
+      - Приваты и взрывчатка:
+          - 🏡 Приваты: anarchy/regions.md
+          - 🧨 Динамит: anarchy/tnt.md
+          - 🧱 Защитные блоки: anarchy/blocks.md
+      - PvP:
+          - ⚔️ Режим PvP: anarchy/pvp.md
+          - 💀 Смерть и возрождение: anarchy/death.md
+      - Ивенты:
+          - 🎉 Мини-ивенты: anarchy/minievents.md
+          - 🏜️ Песчаные Раскопки: anarchy/pesok.md
+          - 🗺️ Большие ивенты: anarchy/events.md
+      - Донат:
+          - 👑 Привилегии: anarchy/donate.md
+          - ⭐ Premium и Platinum: anarchy/premium.md
+      - Модерация:
+          - 📨 Жалобы: anarchy/reports.md
+          - 🔎 Проверка на читы: anarchy/check.md
