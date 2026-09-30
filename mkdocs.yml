@@ -1,0 +1,91 @@
+site_name: AspireWorld Wiki
+site_url: https://mcaspireworld.github.io/wiki/
+site_description: Вики анархии AspireWorld (Minecraft 1.21.4) — команды, донат, рейды, ивенты, экономика.
+repo_url: https://github.com/MCAspireWorld/wiki
+repo_name: MCAspireWorld/wiki
+edit_uri: edit/main/docs/
+copyright: AspireWorld © 2026 · mc.aspireworld.ru
+
+theme:
+  name: material
+  language: ru
+  icon:
+    logo: material/meteor
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/AspireWorld
+      name: Telegram
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/4vcw34k3cq
+      name: Discord
+    - icon: material/web
+      link: https://aspireworld.ru
+      name: Сайт и донат
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Главная: index.md
+  - Начало:
+      - Как начать: start.md
+      - Правила: rules.md
+      - Команды: commands.md
+      - Вопросы и ответы: faq.md
+  - Донат:
+      - Привилегии: donate.md
+  - Экономика:
+      - Деньги и заработок: economy.md
+      - Аукцион: auction.md
+      - Игровой зал: casino.md
+  - Выживание:
+      - Регионы и рейды: raids.md
+      - PvP и смерть: pvp.md
+      - Наковальня и опыт: anvil.md
+  - Ивенты:
+      - Ивенты сервера: events.md
+  - Модерация:
+      - Жалобы и проверки: reports.md
