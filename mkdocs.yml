@@ -104,6 +104,11 @@ nav:
           - 🎉 Мини-ивенты: anarchy/minievents.md
           - 🏜️ Песчаные Раскопки: anarchy/pesok.md
           - 🗺️ Большие ивенты: anarchy/events.md
+      - Прогресс:
+          - 🎫 Боевой пропуск: anarchy/battlepass.md
+          - 🛡️ Кланы: anarchy/clans.md
+          - 🎁 Наборы, кейсы и рюкзак: anarchy/kits.md
+          - 🎨 Профиль и кастомизация: anarchy/profile.md
       - Донат:
           - 👑 Привилегии: anarchy/donate.md
           - ⭐ Premium и Platinum: anarchy/premium.md
