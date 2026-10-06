@@ -68,7 +68,7 @@
 
 Телеграм-канал с новостями сервера: t.me/AspireWorld [Открыть](https://t.me/AspireWorld){ .aw-open }
 
-Discord сервера: discord.gg/4vcw34k3cq [Открыть](https://discord.gg/4vcw34k3cq){ .aw-open }
+Discord сервера: discord.gg/kzQB44PsM2 [Открыть](https://discord.gg/kzQB44PsM2){ .aw-open }
 
 Официальный сайт, где можно приобрести донат: aspireworld.ru [Открыть](https://aspireworld.ru){ .aw-open }
 
