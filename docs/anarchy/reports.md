@@ -33,4 +33,4 @@
 
 ## Обжаловать наказание
 
-Поддержка: **[t.me/aspirehelp](https://t.me/aspirehelp)** — п. 10 [правил](rules.md).
+Поддержка: **[discord.gg/kzQB44PsM2](https://discord.gg/kzQB44PsM2)** — п. 10 [правил](rules.md).

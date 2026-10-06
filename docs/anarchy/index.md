@@ -72,6 +72,6 @@ Discord сервера: discord.gg/kzQB44PsM2 [Открыть](https://discord.g
 
 Официальный сайт, где можно приобрести донат: aspireworld.ru [Открыть](https://aspireworld.ru){ .aw-open }
 
-Поддержка: t.me/aspirehelp [Открыть](https://t.me/aspirehelp){ .aw-open }
+Поддержка: discord.gg/kzQB44PsM2 [Открыть](https://discord.gg/kzQB44PsM2){ .aw-open }
 
 </div>

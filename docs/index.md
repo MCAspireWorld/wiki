@@ -55,7 +55,7 @@ hide:
 
 <div class="aw-links" markdown>
 
-Поддержка и обжалование наказаний: t.me/aspirehelp [Открыть](https://t.me/aspirehelp){ .aw-open }
+Поддержка и обжалование наказаний: discord.gg/kzQB44PsM2 [Открыть](https://discord.gg/kzQB44PsM2){ .aw-open }
 
 Телеграм-канал с новостями: t.me/AspireWorld [Открыть](https://t.me/AspireWorld){ .aw-open }
 
