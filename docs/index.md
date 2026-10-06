@@ -13,7 +13,7 @@ hide:
 | | |
 |---|---|
 | Айпи адрес | `mc.aspireworld.ru` |
-| Версия игры | 1.21.4 |
+| Версия игры | 1.21.4 – 1.21.11 |
 | Сайт и донат | [aspireworld.ru](https://aspireworld.ru) |
 
 </div>
